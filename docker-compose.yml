@@ -1,0 +1,27 @@
+version: '3.6'
+services:
+  app:
+    image: 'docker-spring-boot-postgres:latest'
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8081:8081"
+    depends_on:
+      - db
+    environment:
+      - SERVER_PORT= 8081
+      - SPRING_DATASOURCE_URL=jdbc:postgresql://db:5432/tms
+
+  db:
+    image: postgres:15.5
+    ports:
+      - '5432'
+    environment:
+      POSTGRES_USER: root
+      POSTGRES_PASSWORD: root
+      POSTGRES_DB: tms
+
+volumes:
+  db-data:
+  pgadmin-data:

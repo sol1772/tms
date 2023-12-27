@@ -1,0 +1,36 @@
+div.container {
+    width: 100% !important;
+    height: 100% !important;
+    max-width: 1320px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 1rem;
+    border-radius: 0;
+    background-color: silver;
+    box-shadow: 0 0 8px 2px lightgray;
+}
+
+h2 {
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+form[id=login_form] {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+span.input-group-text {
+    width: 7rem;
+}
+
+button {
+    width: 7rem;
+}
+
+p[id=error] {
+    text-align: center;
+    color: red;
+}

@@ -1,0 +1,58 @@
+div.container {
+    width: 100% !important;
+    height: 100% !important;
+    max-width: 1320px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 1rem;
+    border-radius: 0;
+    background-color: silver;
+    box-shadow: 0 0 8px 2px lightgray;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+h3 {
+    text-align: center;
+    padding-bottom: 1rem;
+}
+
+form[id=reg_form] {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+span[class=input-group-text] {
+    width: 7rem;
+}
+
+button {
+    width: 7rem;
+}
+
+.btn-outline-info:hover {
+    color: #fff !important;
+    border-radius: 0.5rem;
+}
+
+td, th {
+    background-color: silver !important;
+    border: none !important;
+    text-align: left;
+    padding-left: 0.5rem !important;
+    vertical-align: middle;
+}
+
+[id=colUser], [id=colEmail], [id=colReg], [id=colTasks] {
+    width: 10rem;
+}
+
+p[id=error] {
+    color: red;
+}

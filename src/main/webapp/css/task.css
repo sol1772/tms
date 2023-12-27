@@ -1,0 +1,109 @@
+div.container {
+    width: 100% !important;
+    height: 100% !important;
+    max-width: 1320px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 1rem;
+    border-radius: 0;
+    background-color: silver;
+    box-shadow: 0 0 8px 2px lightgray;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+h3 {
+    text-align: center;
+    padding-bottom: 1rem;
+}
+
+h5[id=cmt_add] {
+    text-align: left;
+    padding-bottom: 1rem;
+}
+
+form[id=reg_form], [id=task_edit_form], [id=cmt_form] {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div.input-group[id=cmt_group] {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+textarea[id=comment] {
+    margin-right: 1rem;
+}
+
+span[class=input-group-text] {
+    width: 7rem;
+}
+
+button[id=btn_send] {
+    vertical-align: middle;
+    height: 3rem;
+    border-radius: 0.5rem !important;
+}
+
+button[id=btn_search] {
+    width: 7rem
+}
+
+button {
+    width: 7rem;
+}
+
+.btn-outline-info:hover {
+    color: #fff !important;
+    border-radius: 0.5rem;
+}
+
+table {
+    border: 1px solid white;
+}
+
+caption {
+    caption-side: top;
+}
+
+td, th {
+    background-color: silver !important;
+    text-align: left;
+    padding-left: 0.5rem !important;
+    vertical-align: middle;
+}
+
+.search-filter-content {
+    margin-bottom: 1rem;
+}
+
+input[type=number] {
+    width: 4rem;
+    margin-left: 0.1rem;
+    margin-right: 0.2rem;
+    font-size: small;
+}
+
+button[class=page-link] {
+    width: 4rem;
+    background-color: silver !important;
+    display: flex;
+    justify-content: center;
+}
+
+[id=colId], [id=colDescr], [id=colReg], [id=colTasks], [id=colStatus], [id=colPriority], [id=colAuthor],
+[id=colPerformer], [id=colTasks] {
+    width: 10rem;
+}
+
+p[id=error] {
+    color: red;
+}

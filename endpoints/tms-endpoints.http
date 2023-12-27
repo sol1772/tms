@@ -1,0 +1,36 @@
+### Login
+GET http://localhost:8081/tms/login
+
+### Add user
+POST http://localhost:8081/tms/user/add
+
+### View user
+GET http://localhost:8081/tms/user/{{id}}
+
+### View users
+GET http://localhost:8081/tms/user
+
+### Add task
+POST http://localhost:8081/tms/task/add
+
+### View task
+GET http://localhost:8081/tms/task/{{id}}
+
+### Edit task
+POST http://localhost:8081/tms/task/{{id}}/edit
+
+### Delete task
+POST  http://localhost:8081/tms/task/{{id}}/delete
+
+### View tasks
+GET http://localhost:8081/tms/task
+
+### Get page of tasks
+GET http://localhost:8081/tms/task/tasks
+Content-Type: application/json
+
+### Add comment to task
+POST http://localhost:8081/tms/task/{{id}}/comment/add
+
+### View error
+GET http://localhost:8081/tms/error
